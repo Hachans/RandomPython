@@ -1,5 +1,4 @@
-from tkinter import font
-from turtle import color
+# from turtle import color
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -12,7 +11,7 @@ import numpy as np
 
 # x = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7])
 # y = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91])
-# colors = np.array(["red","green","blue","yellow","pink","black","orange","purple","beige","brown","gray","cyan","magenta", "hotpink", "teal"])
+# colors = np.array(["red","green","blue","yellow","pink","black","orange","purple","beige","brown","gray","cyan","magenta"])
 
 # plt.scatter(x, y, c=colors)
 # plt.title("Car age and speed corelation", size = 18)
