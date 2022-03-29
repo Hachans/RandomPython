@@ -9,7 +9,7 @@ df = pandas.read_csv("cars2.csv")
 X = df[['Weight', 'Volume']]
 y = df["CO2"]
 
-# standar scaling (z = (x - u) / s)
+# standard scaling (z = (x - u) / s)
 # 'z' is the new value, 'x' is the original value, 'u' is the mean and 's' is the standard deviation.
 
 # weightMean = numpy.mean(df["Weight"])

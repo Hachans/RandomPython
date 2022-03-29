@@ -22,6 +22,6 @@ data = tree.export_graphviz(dTree, out_file=None, feature_names=features)
 graph = pydotplus.graph_from_dot_data(data)
 graph.write_png('DecisionTree.png')
 
-img=pltimg.imread('DecisionTree.png')
+img = pltimg.imread('DecisionTree.png')
 imgplot = plt.imshow(img)
 plt.show()

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # plt.subplot(1,2,1)
 # plt.hist(x, 100)
 
-# # random float values with mean 5.0 and standart deviation 1.0
+# # random float values with mean 5.0 and standard deviation 1.0
 # x = numpy.random.normal(5.0, 1.0, 100000)
 # plt.subplot(1,2,1)
 # plt.hist(x, 100)
